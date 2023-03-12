@@ -11,7 +11,7 @@ mongoose.connect('mongodb+srv://ankitjarwall:<ankit2002>@database.lxk1au5.mongod
 
 
 app.get("/", (req, res) => {
-    res.send("hello check message...")
+    res.send("This is check message...")
 })
 
 
